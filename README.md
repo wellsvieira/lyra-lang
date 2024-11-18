@@ -1,6 +1,6 @@
 # Lyra Programming Language
 
-This is a project aiming to compile code written in the Lyra programming language into assembly code. This repository includes the source code for the compiler, examples of Lyra programs, and instructions on how to use the compiler to generate assembly code and to execute it using a virtual machine.
+This is a college project focused on designing and implementing a custom programming language called Lyra. The project involves building a compiler that translates Lyra code into assembly code, providing a deeper understanding of compiler construction.
 
 # Example Code
 Here is an example of a simple Lyra program for matrix addition:
