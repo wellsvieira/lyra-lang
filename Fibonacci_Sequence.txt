@@ -1,0 +1,26 @@
+int i = 0 
+int v = 0 
+int n = 20 
+int t1 = 0 
+int t2 = 1 
+int nextTerm 
+array seq[20]
+seq[0] = t1 
+seq[1] = t2 
+nextTerm = t1 + t2 
+
+while (j+2 < n)
+do 
+  seq[i+2] = nextTerm
+  t1 = t2
+  t2 = nextTerm 
+  nextTerm = t1 + t2 
+  i = i+1 
+end 
+
+while(v < n) 
+do 
+  writei(seq[v]) 
+  writes("\n") 
+  v = v+1 
+end
