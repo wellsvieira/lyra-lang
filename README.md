@@ -1,6 +1,6 @@
 # Lyra Programming Language
 
-This is a college project focused on designing and implementing a custom programming language called Lyra. The project involves building a compiler that translates Lyra code into assembly code, providing a deeper understanding of compiler construction.
+This is a college project focused on designing and implementing a custom programming language called Lyra. The project involves building a compiler that translates Lyra code into assembly-like stack-based virtual machine code, providing a deeper understanding of compiler construction.
 
 # Example Code
 Here is an example of a simple Lyra program for matrix addition:
@@ -32,7 +32,7 @@ while(i < 2) do
     i = i + 1
 end
 ```
-# Generated Assembly
+# Generated code
 ```
 PUSHI 3
 PUSHI 4
@@ -140,9 +140,9 @@ label3f: NOP
 ```
 # Usage
 1.	Write the Lyra code in a txt file.
-2.	Run the compiler to generate assembly code:
+2.	Run the compiler to generate assembly-like code:
 ```
 python main.py <lyra_file>.txt
 ```
-3.	Copy the generated assembly code into the [Virtual Machine](https://ewvm.epl.di.uminho.pt/) provided by Uminho.
-4.	The virtual machine interprets and runs the assembly code, allowing you to see the output of the program.
+3.	Copy the generated code into the [Virtual Machine](https://ewvm.epl.di.uminho.pt/) provided by Uminho.
+4.	The virtual machine interprets and runs it, allowing you to see the output of the program.
